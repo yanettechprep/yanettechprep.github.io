@@ -25,6 +25,8 @@ body {
   color: black;
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .social-icons a {
@@ -36,7 +38,7 @@ body {
   background-color: rgba(149, 123, 173, 0.75);
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 3px;
 }
 
 .link a {
@@ -62,4 +64,5 @@ flex-grow: 1;
 .social-icons {
   display: flex;
   justify-content: space-around;
+  size: 30px;
 }
