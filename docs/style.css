@@ -39,13 +39,14 @@ body {
   display: flex;
   align-items: center;
   padding: 3px;
+  text-align: center;
 }
 
 .link a {
   color: darkblue;
   text-decoration: none;
   text-align: center;
-  flex-grow: 0;
+  flex-grow: 1;
 }
 
 .items {
