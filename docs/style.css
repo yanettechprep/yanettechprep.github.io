@@ -33,7 +33,7 @@ body {
 }
 
 .link {
-  background-color: whitesmoke;
+  background-color: rgba(149, 123, 173, 0.75);
   display: flex;
   align-items: center;
   padding: 5px;
@@ -62,7 +62,4 @@ flex-grow: 1;
 .social-icons {
   display: flex;
   justify-content: space-around;
-}
-.glassy {
-  background-color: rgba(149, 123, 173, 0.75);
 }
