@@ -39,16 +39,11 @@ body {
   padding: 5px;
 }
 
-.link:hover {
-  box-shadow: var(--shadow-elevation-medium);
-}
-
-.link-text {
+.link a {
   color: darkblue;
   text-decoration: none;
   text-align: center;
-  flex: 1;
-  padding: 0 5px;
+  flex-grow: 0;
 }
 
 .items {
@@ -68,7 +63,6 @@ flex-grow: 1;
   display: flex;
   justify-content: space-around;
 }
-
 .glassy {
   background-color: rgba(149, 123, 173, 0.75);
 }
