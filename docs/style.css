@@ -38,7 +38,10 @@ body {
   background-color: rgba(149, 123, 173, 0.75);
   display: flex;
   align-items: center;
-  padding: 3px;
+  padding:7px;
+  border-radius: 500px;
+  transition: 0.3s;
+  box-shadow: var(--shadow-elevation-low);
 }
 
 .link-text {
